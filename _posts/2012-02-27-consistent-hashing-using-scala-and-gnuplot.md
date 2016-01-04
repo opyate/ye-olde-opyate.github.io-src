@@ -30,7 +30,7 @@ Using a terminal, run gnuplot in the same location as “dat”, and you’ll se
 
 Now, copy/paste this entire bit of code into the terminal:
 
-{% gist 1927001 gnuplot %}
+<a href="https://gist.github.com/opyate/1927001#gnuplot">https://gist.github.com/opyate/1927001#gnuplot</a>
 
 Here’s the plot:
 
@@ -40,6 +40,6 @@ As you can see, for a large amount of vnodes, the percentage tends to 1%.
 
 You can see this more easily by inputting this into the gnuplot prompt:
 
-{% gist 1927001 gnuplot-amend %}
+<a href="https://gist.github.com/opyate/1927001#gnuplot-amend">https://gist.github.com/opyate/1927001#gnuplot-amend</a>
 
 According to my plot, I start to get a low SD around 50 vnodes (5 times my number of nodes), but then this could just be because my hashing function mixes better than the one used by lexemetech.

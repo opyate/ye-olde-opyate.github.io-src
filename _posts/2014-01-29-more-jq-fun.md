@@ -15,4 +15,4 @@ I needed to grab some England Bank holidays for a [quick hack](https://github.co
 
 Hold onto yer hats:
 
-{% gist 8773005 %}
+<a href="https://gist.github.com/opyate/8773005">https://gist.github.com/opyate/8773005</a>

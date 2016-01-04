@@ -19,7 +19,7 @@ It's just that I ran out of space on my 128GB SSD Air for the umpteenth time, an
 
 When you do get one of these bad boys, the first thing I recommend you do is this:
 
-{% gist 7276520 %}
+<a href="https://gist.github.com/opyate/7276520">https://gist.github.com/opyate/7276520</a>
 
 That will get you the latest kernel without upgrading *everything*. As any Linux user would know, upgrading to fix one problem introduces a thousand other problems, and this felt like a nice trade-off.
 

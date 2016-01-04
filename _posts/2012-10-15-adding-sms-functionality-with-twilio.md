@@ -32,9 +32,9 @@ Twilio seemingly don’t maintain any state on their side. I.e. if a user sends 
 
 To illustrate this, here are the `application/form-url-encoded` payloads represented as Scala maps:
 
-{% gist 3854971 TwilioSMSFirst.scala %}
+<a href="https://gist.github.com/opyate/3854971#TwilioSMSFirst.scala">https://gist.github.com/opyate/3854971#TwilioSMSFirst.scala</a>
 
-{% gist 3854971 TwilioSMSSecond.scala %}
+<a href="https://gist.github.com/opyate/3854971#TwilioSMSSecond.scala">https://gist.github.com/opyate/3854971#TwilioSMSSecond.scala</a>
 
 
 # Implementation in a nutshell
@@ -73,13 +73,13 @@ I assumed a maximum of 10 seconds between SMS fragments. A counter point to this
 
 The second version of the SMSWorker can be seen below.
 
-{% gist 3854971 ScheduledPollFromSMSActor.scala %}
+<a href="https://gist.github.com/opyate/3854971#ScheduledPollFromSMSActor.scala">https://gist.github.com/opyate/3854971#ScheduledPollFromSMSActor.scala</a>
 
 The value inProximity are the SMS fragments within a 10 second period. The SMS fragments belong to the same user, as obtained via the groupBycall on line 8.
 
 The SMSParser on line 19 is really nothing special, but from the test cases you’ll see that we’re catering for every eventuality:
 
-{% gist 3854971 SMSParserSpec.scala %}
+<a href="https://gist.github.com/opyate/3854971#SMSParserSpec.scala">https://gist.github.com/opyate/3854971#SMSParserSpec.scala</a>
 
 # Conclusion
 

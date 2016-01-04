@@ -17,7 +17,7 @@ I worked a little on this problem last night, and decided to by-pass the brute f
 
 Here you go:
 
-{% gist 7689573 %}
+<a href="https://gist.github.com/opyate/7689573">https://gist.github.com/opyate/7689573</a>
 
 # A little explanation
 

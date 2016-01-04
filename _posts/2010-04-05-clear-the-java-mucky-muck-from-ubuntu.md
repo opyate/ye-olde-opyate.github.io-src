@@ -24,11 +24,11 @@ Depending on what you’ve installed before, you may be left with a mixture of n
 
 The below is just a sample of things that may or may not be installed on your machine. Use Synaptic Package Manager instead, and search for “java” and remove accordingly.
 
-{% gist 6325468 remove-1 %}
+<a href="https://gist.github.com/opyate/6325468#remove-1">https://gist.github.com/opyate/6325468#remove-1</a>
 
 You may need to completely remove the historical alternatives:
 
-{% gist 6325468 remove-2 %}
+<a href="https://gist.github.com/opyate/6325468#remove-2">https://gist.github.com/opyate/6325468#remove-2</a>
 
 As you can see, not only do I use java and javac, but also jhat, jvisualvm, etc.
 
@@ -40,10 +40,10 @@ Install the JDK. For the purposes of this discussion, let’s set the `JAVA_HOME
 
 Tell the alternatives system where it can find the new utilities:
 
-{% gist 6325468 install %}
+<a href="https://gist.github.com/opyate/6325468#install">https://gist.github.com/opyate/6325468#install</a>
 
 And a quick test:
 
-{% gist 6325468 version-check %}
+<a href="https://gist.github.com/opyate/6325468#version-check">https://gist.github.com/opyate/6325468#version-check</a>
 
 The same can now be done for your other tools, like Ant and Maven.

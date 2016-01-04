@@ -45,13 +45,13 @@ In this example, I’m using [cat](http://www.gnu.org/software/coreutils/manual/
 
 Open a shell, and host the image with:
 
-{% gist 6375611 catserver %}
+<a href="https://gist.github.com/opyate/6375611#catserver">https://gist.github.com/opyate/6375611#catserver</a>
 
 **UPDATE**
 
 In retrospect, you can serve something up repeatedly by putting it in a `while (true)` loop:
 
-{% gist 6375611 holding-page %}
+<a href="https://gist.github.com/opyate/6375611#holding-page">https://gist.github.com/opyate/6375611#holding-page</a>
 
 <img width="381px" src="http://funkshional.files.wordpress.com/2012/01/start.png" alt="Serve the cat with cat and netcat">
 

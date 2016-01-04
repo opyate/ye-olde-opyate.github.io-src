@@ -21,7 +21,7 @@ The business grew, We recruited, and the team grew. My responsibilities increase
 
 Behold:
 
-{% gist 6020023 %}
+<a href="https://gist.github.com/opyate/6020023">https://gist.github.com/opyate/6020023</a>
 
 I also grew immensely as a developer whilst working for BeatThatQuote.com. The pace was fast, and the tasks demanding. John would stand behind me, waiting for a bit of Ruby to deploy, saying "Every minute is X thousand pounds" and my heart would start pounding, and my hands would shake a little. But, I loved every minute of it. Never in your life would you so quickly learn to implement keyboard shortcuts for everything, and never ever even look at your keyboard ever again.
 
